@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/usememos/gomark/ast"
-	"github.com/usememos/gomark/parser"
-	"github.com/usememos/gomark/parser/tokenizer"
+	"github.com/alalxz/gomark/ast"
+	"github.com/alalxz/gomark/parser"
+	"github.com/alalxz/gomark/parser/tokenizer"
 
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/store"
+	storepb "github.com/alalxz/memos/proto/gen/store"
+	"github.com/alalxz/memos/store"
 )
 
 type Runner struct {
