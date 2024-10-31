@@ -14,8 +14,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/server/version"
+	storepb "github.com/alalxz/memos/proto/gen/store"
+	"github.com/alalxz/memos/server/version"
 )
 
 //go:embed migration
