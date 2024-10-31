@@ -13,9 +13,9 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/reflection"
 
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	"github.com/usememos/memos/server/profile"
-	"github.com/usememos/memos/store"
+	v1pb "github.com/alalxz/memos/proto/gen/api/v1"
+	"github.com/alalxz/memos/server/profile"
+	"github.com/alalxz/memos/store"
 )
 
 type APIV1Service struct {
