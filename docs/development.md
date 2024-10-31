@@ -18,7 +18,7 @@ Memos is built with a curated tech stack. It is optimized for developer experien
 1. Pull the source code
 
    ```bash
-   git clone https://github.com/usememos/memos
+   git clone https://github.com/alalxz/memos
    ```
 
 2. Start backend server with [`air`](https://github.com/cosmtrek/air) (with live reload)
