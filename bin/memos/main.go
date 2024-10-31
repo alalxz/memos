@@ -12,11 +12,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/usememos/memos/server"
-	"github.com/usememos/memos/server/profile"
-	"github.com/usememos/memos/server/version"
-	"github.com/usememos/memos/store"
-	"github.com/usememos/memos/store/db"
+	"github.com/alalxz/memos/server"
+	"github.com/alalxz/memos/server/profile"
+	"github.com/alalxz/memos/server/version"
+	"github.com/alalxz/memos/store"
+	"github.com/alalxz/memos/store/db"
 )
 
 const (
@@ -164,7 +164,7 @@ See more in:
 👉Website: %s
 👉GitHub: %s
 ---
-`, "https://usememos.com", "https://github.com/usememos/memos")
+`, "https://alalxz.com", "https://github.com/alalxz/memos")
 }
 
 func main() {
