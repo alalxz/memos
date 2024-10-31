@@ -3,7 +3,7 @@ package store
 import (
 	"context"
 
-	storepb "github.com/usememos/memos/proto/gen/store"
+	storepb "github.com/alalxz/memos/proto/gen/store"
 )
 
 // InboxStatus is the status for an inbox.
