@@ -17,15 +17,15 @@ import (
 	"github.com/soheilhy/cmux"
 	"google.golang.org/grpc"
 
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/server/profile"
-	apiv1 "github.com/usememos/memos/server/router/api/v1"
-	"github.com/usememos/memos/server/router/frontend"
-	"github.com/usememos/memos/server/router/rss"
-	"github.com/usememos/memos/server/runner/memoproperty"
-	"github.com/usememos/memos/server/runner/s3presign"
-	"github.com/usememos/memos/server/runner/version"
-	"github.com/usememos/memos/store"
+	storepb "github.com/alalxz/memos/proto/gen/store"
+	"github.com/alalxz/memos/server/profile"
+	apiv1 "github.com/alalxz/memos/server/router/api/v1"
+	"github.com/alalxz/memos/server/router/frontend"
+	"github.com/alalxz/memos/server/router/rss"
+	"github.com/alalxz/memos/server/runner/memoproperty"
+	"github.com/alalxz/memos/server/runner/s3presign"
+	"github.com/alalxz/memos/server/runner/version"
+	"github.com/alalxz/memos/store"
 )
 
 type Server struct {
