@@ -8,9 +8,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/usememos/memos/internal/util"
-	"github.com/usememos/memos/plugin/storage/s3"
-	storepb "github.com/usememos/memos/proto/gen/store"
+	"github.com/alalxz/memos/internal/util"
+	"github.com/alalxz/memos/plugin/storage/s3"
+	storepb "github.com/alalxz/memos/proto/gen/store"
 )
 
 type Resource struct {
