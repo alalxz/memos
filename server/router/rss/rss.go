@@ -10,13 +10,13 @@ import (
 
 	"github.com/gorilla/feeds"
 	"github.com/labstack/echo/v4"
-	"github.com/usememos/gomark"
-	"github.com/usememos/gomark/ast"
-	"github.com/usememos/gomark/renderer"
+	"github.com/alalxz/gomark"
+	"github.com/alalxz/gomark/ast"
+	"github.com/alalxz/gomark/renderer"
 
-	storepb "github.com/usememos/memos/proto/gen/store"
-	"github.com/usememos/memos/server/profile"
-	"github.com/usememos/memos/store"
+	storepb "github.com/alalxz/memos/proto/gen/store"
+	"github.com/alalxz/memos/server/profile"
+	"github.com/alalxz/memos/store"
 )
 
 const (
